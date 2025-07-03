@@ -79,6 +79,7 @@ function AboutPage() {
               relationships, and creates real impact.
             </p>
           </Col>
+          
           <Col md={6}>
             <img
               src="/images/moto5.jpg"
