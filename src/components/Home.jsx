@@ -204,6 +204,7 @@ const Home = () => {
           </Modal.Body>
         </Modal>
 
+//i changed this
         {/* Login Modal */}
         <Modal
           show={showLoginPopup}
