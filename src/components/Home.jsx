@@ -13,7 +13,6 @@ import FeaturedFounders from "./FeaturedFounders";
 import CurrentEvent from "./CurrentEvent";
 import Founder from "./Founder";
 import EventHighlights from "../utils/EventHighlight";
-import CreateDoctorGreet from "../greets/CreateDoctorGreet";
 
 const Home = () => {
   const [showRegistered, setShowRegistered] = useState(false);
@@ -50,7 +49,6 @@ const Home = () => {
 
   return (
     <>
-      <CreateDoctorGreet />
       <div
         style={{
           backgroundImage: 'url("/images/bg4.jpg")',
